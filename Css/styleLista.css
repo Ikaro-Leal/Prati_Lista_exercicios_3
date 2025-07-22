@@ -1,0 +1,32 @@
+.container section{
+    text-align: left;
+}
+
+.container section a{
+    text-decoration: none;
+    color: black;
+}   
+
+.container section h2{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+.links3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.links3 li {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.7rem;
+    transition: all 0.4s ease
+}
+
+.links3 li:hover {
+    border-radius: 1.7rem;
+    
+}
