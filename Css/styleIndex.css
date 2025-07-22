@@ -83,6 +83,7 @@ body {
 
 .main-content h2{
     padding-top: 2rem;
+    text-decoration: underline;
 }
 
 .main-content p{
@@ -97,4 +98,16 @@ body {
   margin-top: 1rem;
   background-color: var(--footer-bg);
   color: var(--text-color);
+}
+
+.destaque{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 0.1rem;
+  background-color: aquamarine;
+  padding: 0.1rem;
+}
+
+#importante{
+  border-top: 3px solid red;
 }
