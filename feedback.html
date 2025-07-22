@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Exercício prático de Html-Css. Exercício do +PraTi e Codifica. Com o Professor Jaques">
+    <meta name="author" content="Ikaro França Leal">
+    <link rel="stylesheet" href="Css/styleIndex.css">
+    <link rel="stylesheet" href="Css/styleFeedback.css">
+    <title>Exercício 3</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-header">
+            <h1>Formulário</h1>
+            <p>Página dedicada a resolução do 2º exercício sobre formuários.</p>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">index</a></li>
+                <li><a href="listas.html">Lista</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section class="form-site">
+                <h2>Envie seu Feedback(formulário)</h2>
+
+                <form action="#" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo@dominio.com">
+                    </div>
+
+                    <div>
+                        <label for="endereco">Endereço Completo:</label>
+                        <input type="text" id="endereco" name="endereco"
+                            placeholder="Digite o endereco">
+                    </div>
+
+                    <div>
+                        <label for="tipo">Tipo de Feedback:</label>
+                        <select id="tipo" name="tipo">
+                            <option value="">Selecione uma opção</option>
+                            <option value="elogio">Elogio</option>
+                            <option value="sugestao">Sugestão</option>
+                            <option value="critica">Crítica</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Seu Feedback:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva aqui sua mensagem..."></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2025 - Projeto educacional +PraTi e Codifica desenvolvido por Ikaro França Leal</p>
+        </footer>
+    </div>
+</body>
+
+</html>

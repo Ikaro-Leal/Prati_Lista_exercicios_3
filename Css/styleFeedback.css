@@ -1,0 +1,50 @@
+.form-site {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-site h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+}
+
+.form-site form div {
+    margin-bottom: 1.7rem;
+}
+
+.form-site label {
+    display: block;   /* Ocupar toda a linha, e quebrara a linha, jogando para baixo */
+    margin-bottom: 0.5rem;
+}
+
+
+.form-site input, .form-site textarea, .form-site select {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.form-site textarea {
+    resize: vertical;    /* nao deixa ir para o exio x */
+}
+
+.form-site button {
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--header-bg);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-site button:hover {
+  background-color: blue;
+}
