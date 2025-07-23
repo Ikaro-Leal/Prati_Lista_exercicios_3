@@ -59,21 +59,20 @@ cd Prati_Lista_exercicios_3
 
 O projeto está organizado da seguinte forma para separar estrutura (HTML), estilo (CSS) e comportamento (JS).
 
--Nome-Do-Repositorio/
-
+```
+Prati_Lista_exercicios_3/
 ├── css/
-│   └── Arquivos.css  
-│    
+│   └── styles.css
 ├── js/
 │   └── menu.js
-│
-│
+├── images/
+│   └── ...
+├── index.html
+├── listas.html
 ├── feedback.html
 ├── galeria.html
-├── index.html
-├── lista.html
-├── menu-burger.html
 └── README.md
+```
 
 #### Autor
 
