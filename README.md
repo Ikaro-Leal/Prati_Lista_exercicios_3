@@ -62,10 +62,8 @@ O projeto está organizado da seguinte forma para separar estrutura (HTML), esti
 ```
 Prati_Lista_exercicios_3/
 ├── css/
-│   └── styles.css
+│   └── ...
 ├── js/
-│   └── menu.js
-├── images/
 │   └── ...
 ├── index.html
 ├── listas.html
